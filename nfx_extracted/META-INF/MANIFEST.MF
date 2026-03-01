@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Created-By: soong_zip
+
+Name: AndroidManifest.xml
+SHA-256-Digest: kid+692jrZqUFKpGrV6/oSTXTV/ginWNHfnx706sRzw=
+
+Name: META-INF/annotation.kotlin_module
+SHA-256-Digest: eP36jn6wfT5tnLNA2j9PXYOqftuczm0zUNk6RDqiEA8=
+
+Name: META-INF/kotlin-project-structure-metadata.json
+SHA-256-Digest: utFe6W8JBEb/6I3LA82V5+lBIZ2e2rBladmFY/vC1jE=
+
+Name: META-INF/kotlin-stdlib-jdk7.kotlin_module
+SHA-256-Digest: hvn5G2eyMmUv3uLhndt6MccgTIb0z8K0K1GvYydMnMA=
+
+Name: META-INF/kotlin-stdlib-jdk8.kotlin_module
+SHA-256-Digest: aV01J6mVffS8m0Ux+4+2mWDAIZ/PMZ27LZsWGboFYl8=
+
+Name: META-INF/kotlin-stdlib.kotlin_module
+SHA-256-Digest: brOKM3XPVnfjxzdc7eKQyeCE8WGhMF5sj4qfbfj45ao=
+
+Name: META-INF/proguard/androidx-annotations.pro
+SHA-256-Digest: ZPsrYDbTv6tHn2FcOMKd/OSAccw1ey0GKnECDWReXJ0=
+
+Name: classes.dex
+SHA-256-Digest: R4N54IajnXj7rZjLkI1LdnAd3v/9TEoYpOh07Uha6MQ=
+
+Name: kotlin/annotation/annotation.kotlin_builtins
+SHA-256-Digest: 98k+cGfKErqbPZTG5UDkwjy2/djJr/cEtVPKumUPw1c=
+
+Name: kotlin/collections/collections.kotlin_builtins
+SHA-256-Digest: U5uFwkA/bvBjgWGtmd97ESVkEulBEzXtLqOTGj79fHY=
+
+Name: kotlin/coroutines/coroutines.kotlin_builtins
+SHA-256-Digest: WabWMrip9duibyponDhl4ZU1HffDwIqhZp/g35+euIM=
+
+Name: kotlin/internal/internal.kotlin_builtins
+SHA-256-Digest: x2two9sezL5C6pGlNmfXZh7fxhVAnT1uV0tYQ7HioF4=
+
+Name: kotlin/kotlin.kotlin_builtins
+SHA-256-Digest: wSfpfs04WshY/lXpxRfIgPa/w9oKoyt41y+AYlhgMQM=
+
+Name: kotlin/ranges/ranges.kotlin_builtins
+SHA-256-Digest: tZwbWppJHfeZ7uICrZGTdgCb1Pgi1+n895wgs1BQOFI=
+
+Name: kotlin/reflect/reflect.kotlin_builtins
+SHA-256-Digest: 8AIcphQmJQ1rF+dt1fcyxZCM9n3K8zsEKaPq17GJQ4Y=
+
+Name: res/xml/accessibility.xml
+SHA-256-Digest: 3DMRtKcWneLgdAht/Cywtc4UAAUmFXQc2aB+oF61MxY=
+
+Name: resources.arsc
+SHA-256-Digest: tgAeJuNkhz2CtDzV0I8APBY+ei4ZNQJ1ylqn7xS2JIk=
+

@@ -1,0 +1,2964 @@
+============ CHIHI_Launcher - Projector Control Code ============
+
+======================================================================
+  DEEP ANALYSIS: CHIHI_Launcher.apk
+======================================================================
+
+--- Lcom/shudong/lib_base/base/BaseActivity; ---
+  <init>()
+    STR: v0, ""
+  A()
+    STR: v1, "null cannot be cast to non-null type java.lang.reflect.ParameterizedType"
+    STR: v2, "null cannot be cast to non-null type java.lang.Class<VDB of com.shudong.lib_base.base.BaseActivity>"
+    STR: v4, "inflate"
+    STR: v0, "null cannot be cast to non-null type VDB of com.shudong.lib_base.base.BaseActivity"
+  B()
+    STR: v0, "inflate(...)"
+  l()
+  m()
+  attachBaseContext()
+    STR: v0, "newBase"
+  moveTaskToBack()
+  n()
+  o()
+  onCreate()
+  onDestroy()
+  p()
+  q()
+  r()
+    STR: v1, "android.webkit.WebViewFactory"
+    STR: v2, "sProviderInstance"
+    STR: v5, "getProviderClass"
+    STR: v6, "null cannot be cast to non-null type java.lang.Class<*>"
+    STR: v6, "android.webkit.WebViewDelegate"
+    STR: v0, "CHROMIUM_WEBVIEW_FACTORY_METHOD"
+    STR: v0, "create"
+  s()
+  setContentView()
+  setInflate()
+    STR: v0, "<set-?>"
+  t()
+  u()
+  v()
+  w()
+  x()
+  y()
+  z()
+
+--- Lcom/shudong/lib_base/base/BaseFragment; ---
+  <init>()
+  b()
+  mBind_delegate$lambda$0()
+    STR: v1, "null cannot be cast to non-null type java.lang.reflect.ParameterizedType"
+    STR: v2, "null cannot be cast to non-null type java.lang.Class<VDB of com.shudong.lib_base.base.BaseFragment>"
+    STR: v4, "inflate"
+    STR: v0, "null cannot be cast to non-null type VDB of com.shudong.lib_base.base.BaseFragment"
+  closeSoftInput()
+  getMBind()
+  handleSoftInput()
+  hideLoading()
+  initBeforeBaseLayout()
+  initBeforeContent()
+  initClick()
+  initObserver()
+  initView()
+  initdata()
+  loadingView()
+    STR: v0, "msg"
+  onCreateView()
+    STR: v2, "inflater"
+  onViewCreated()
+    STR: v0, "view"
+
+--- Lcom/shudong/lib_base/base/BaseVMFragment; ---
+  <init>()
+  c()
+  mViewModel_delegate$lambda$0()
+    STR: v1, "null cannot be cast to non-null type java.lang.reflect.ParameterizedType"
+    STR: v1, "null cannot be cast to non-null type java.lang.Class<VM of com.shudong.lib_base.base.BaseVMFragment>"
+  getMViewModel()
+  onViewCreated()
+    STR: v0, "view"
+
+--- Lcom/shudong/lib_base/base/BaseVMActivity; ---
+  <init>()
+  C()
+  E()
+    STR: v1, "null cannot be cast to non-null type java.lang.reflect.ParameterizedType"
+    STR: v1, "null cannot be cast to non-null type java.lang.Class<VM of com.shudong.lib_base.base.BaseVMActivity>"
+  D()
+  onCreate()
+
+--- Lcom/chihihx/launcher/service/AppService$InnerReceiver; ---
+  <init>()
+  onReceive()
+
+--- Lcom/chihihx/launcher/service/AppService; ---
+  <init>()
+  onBind()
+  onCreate()
+    STR: v1, "android.intent.action.store.download.apk"
+  onDestroy()
+
+--- Lcom/chihihx/launcher/service/OutsideBroadcast; ---
+  <init>()
+  onReceive()
+
+--- Lcom/chihihx/launcher/ui/activity/ProjectorActivity; ---
+  <init>()
+  x()
+
+--- Lcom/chihihx/launcher/ui/activity/ScaleScreenActivity; ---
+  <init>()
+  x()
+
+--- Lcom/chihihx/launcher/ui/fragment/FocusFragment$a; ---
+  <init>()
+  <init>()
+    CALL: v0, Lcom/chihihx/launcher/ui/fragment/FocusFragment$a;-><init>()V
+  a()
+    CALL: v1, Lcom/chihihx/launcher/ui/fragment/FocusFragment;-><init>()V
+
+--- Lcom/chihihx/launcher/ui/fragment/FocusFragment$b; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/FocusFragment; ---
+  <init>()
+  d()
+    CALL: v0, v1, Lcom/chihihx/launcher/ui/fragment/FocusFragment;->initView$lambda$0(Lcom/chihihx/launcher/ui/fragment/FocusFragment; Landroid/view/View;)V
+  e()
+    CALL: v0, v1, Lcom/chihihx/launcher/ui/fragment/FocusFragment;->initView$lambda$2(Lcom/chihihx/launcher/ui/fragment/FocusFragment; Z)Leo2;
+  f()
+    CALL: v0, Lcom/chihihx/launcher/ui/fragment/FocusFragment;->initView$lambda$1$0(Landroid/widget/TextView;)V
+  initView$lambda$0()
+    STR: v0, "v"
+    CALL: v1, v2, Lcom/chihihx/launcher/ui/fragment/FocusFragment;->onClick(Landroid/view/View;)V
+  initView$lambda$1$0()
+    CALL: v0, Landroid/view/View;->requestFocus()Z
+  initView$lambda$2()
+  newInstance()
+    CALL: v0, Lcom/chihihx/launcher/ui/fragment/FocusFragment$a;->a()Lcom/chihihx/launcher/ui/fragment/FocusFragment;
+  excuteLang()
+  initView()
+    CALL: v1, v3, Lha0;-><init>(Lcom/chihihx/launcher/ui/fragment/FocusFragment;)V
+    CALL: v0, v3, Lja0;-><init>(Lcom/chihihx/launcher/ui/fragment/FocusFragment;)V
+    STR: v2, "REFRESH_GUID"
+    CALL: v2, v0, Lcom/chihihx/launcher/ui/fragment/FocusFragment$b;-><init>(Lgd0;)V
+  onClick()
+    STR: v0, "v"
+    STR: v8, "getSupportFragmentManager(...)"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$InnerReceiver; ---
+  <init>()
+  onReceive()
+    STR: v0, "context"
+    STR: v5, "intent"
+    STR: v6, "android.intent.action.PACKAGE_ADDED"
+    STR: v6, "android.intent.action.PACKAGE_REMOVED"
+    STR: v6, "android.intent.action.PACKAGE_REPLACED"
+    STR: v6, "horizontalContent"
+    STR: v2, "null cannot be cast to non-null type kotlin.collections.MutableList<android.content.pm.ApplicationInfo>"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$a0$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$a0; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$a; ---
+  <init>()
+  <init>()
+  a()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$b$a; ---
+  <init>()
+  h()
+  i()
+  k()
+  l()
+    STR: v2, "jsonToString(...)"
+    CALL: v2, v4, v3, Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+    CALL: v2, v4, v3, Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$b0; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$b; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c$a$a$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c$a$a$b; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c$a$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c$a$b; ---
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c0; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$c; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$d0; ---
+  <init>()
+  h()
+  i()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v8, "开始设置网络数据"
+    STR: v0, "zengyue3"
+    CALL: v8, Landroid/view/View;->requestFocus()Z
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$d; ---
+  <init>()
+  onOpen()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a$a; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a$b; ---
+  <init>()
+  b()
+    STR: v1, ""
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a$c; ---
+  <init>()
+  b()
+    STR: v0, "it"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a$d; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a$e; ---
+  <init>()
+  b()
+    STR: v1, ""
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a$a; ---
+  <init>()
+  b()
+    STR: v0, "$this$onAdCallback"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0$a; ---
+  <init>()
+  b()
+    STR: v0, "$this$loadAd"
+    STR: v0, "item_focused_home_ad_id"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e0; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$e; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$f0; ---
+  <init>()
+  h()
+  i()
+  k()
+  l()
+  o()
+  p()
+  s()
+  t()
+    STR: v0, "enter_home_ad_id"
+  u()
+  v()
+  w()
+  x()
+  y()
+  z()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$f; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$g0$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$g0; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$g; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$h0; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+    STR: v15, "不存在AppStore的Item1"
+    CALL: v15, v6, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    STR: v15, "getString(...)"
+    STR: v7, "ShortX"
+    STR: v6, "header"
+    STR: v15, "已经存在AppStore的Item1"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$h; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$i0; ---
+  <init>()
+  run()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$i; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$j0$a; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$j0; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$j; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$k0$a; ---
+  <init>()
+  h()
+  i()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v3, "Search"
+    STR: v2, "call to 'resume' before 'invoke' with coroutine"
+    STR: v8, "找到有效结果，包名: "
+    STR: v10, "requireContext(...)"
+    STR: v6, "无效结果，包名: "
+    STR: v9, "请求失败，包名: "
+    STR: v6, ", 异常: "
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$k0; ---
+  <init>()
+  a()
+    STR: v3, "requireContext(...)"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$k; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$l; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$m; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$n; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o$a; ---
+  <init>()
+  b()
+    STR: v0, "ended"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o$b; ---
+  <init>()
+  b()
+    STR: v1, "playing"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o$c; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o$d; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o$e; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$o; ---
+  <init>()
+  h()
+  i()
+    STR: v1, "ended"
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+    STR: v6, "idle"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p$a; ---
+  <init>()
+  b()
+    STR: v0, "ended"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p$b; ---
+  <init>()
+  b()
+    STR: v1, "playing"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p$c; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p$d; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p$e; ---
+  <init>()
+  b()
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$p; ---
+  <init>()
+  h()
+  i()
+    STR: v1, "ended"
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+    STR: v6, "idle"
+    STR: v2, "暂不能显示广告"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$q; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$r; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$s; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$t; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$u; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$v; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$w; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$x; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$y; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment$z; ---
+  <init>()
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/chihihx/launcher/ui/fragment/MainFragment; ---
+  <init>()
+  A()
+    CALL: v0, v1, v2, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus$lambda$0$4$0(Lcom/chihihx/launcher/databinding/FragmentMainBinding; Landroid/view/View; Z)V
+  B()
+  C()
+  D()
+  E()
+  F()
+  G()
+  H()
+  I()
+  J()
+  K()
+  L()
+  M()
+  N()
+  O()
+  P()
+  Q()
+  R()
+  S()
+  T()
+  U()
+    CALL: v0, v1, v2, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus$lambda$0$0$0(Lcom/chihihx/launcher/databinding/FragmentMainBinding; Landroid/view/View; Z)V
+  V()
+  W()
+  X()
+  Y()
+  Z()
+  a0()
+  access$checkLauncherUpdate()
+  access$fillMovice()
+  access$getItems$p()
+  access$getMBind()
+  access$getMViewModel()
+  access$getRequestTime$p()
+  access$isCanShowHeaderFloatAd$p()
+  access$performTask()
+  access$requestHome()
+  access$setCanShowHeaderFloatAd$p()
+  access$setConnectFirst$p()
+  access$setDefault()
+  access$setHeader()
+  access$setRequestTime$p()
+  access$showAdWithInterval()
+  access$startRepeatingTask()
+  access$syncNotify()
+  b0()
+  backToHeadFirst()
+    CALL: v0, Landroid/view/View;->isFocused()Z
+    CALL: v0, Landroid/view/View;->requestFocus()Z
+  backToHeadFirst$lambda$1$0()
+  c0()
+  checkLauncherUpdate()
+  clearAppData$lambda$0()
+  d()
+  d0()
+  deleteAllPic()
+    CALL: v0, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    CALL: v0, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+    STR: v1, "getAbsolutePath(...)"
+  detectNetStaus()
+  e()
+  e0()
+  f()
+    CALL: v0, v1, v2, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus$lambda$0$2$0(Lcom/chihihx/launcher/databinding/FragmentMainBinding; Landroid/view/View; Z)V
+  f0()
+  fillAppStore()
+  fillApps()
+  fillData()
+    STR: v5, "Youtube"
+    STR: v9, "当前的bean的Name是："
+    STR: v8, "chihi_error1"
+    STR: v7, ""
+    STR: v3, "Google play"
+    STR: v3, "Hulu"
+    STR: v3, "Max"
+    STR: v3, "media center"
+    STR: v3, "Disney+"
+  fillData$default()
+  fillHeader()
+    STR: v0, "/Home.json"
+    CALL: v1, v0, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    CALL: v1, Ljava/io/File;->exists()Z
+    CALL: v3, v0, Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
+  fillHeader$lambda$0()
+    CALL: v0, Landroid/view/View;->requestFocus()Z
+  fillMovice()
+  fillMovice()
+  fillSrafAd()
+    STR: v2, "horizontalContent"
+  g()
+  g0()
+  h()
+  h0()
+    CALL: v0, v1, v2, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus$lambda$0$3$0(Lcom/chihihx/launcher/databinding/FragmentMainBinding; Landroid/view/View; Z)V
+  i()
+    CALL: v0, v1, v2, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus$lambda$0$1$0(Lcom/chihihx/launcher/databinding/FragmentMainBinding; Landroid/view/View; Z)V
+  initContentForHorizontal()
+    STR: v1, "horizontalContent"
+  initContentForHorizontal$lambda$0()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  initContentForHorizontal$lambda$0$0()
+    STR: v0, "$this$onBind"
+    STR: v2, "bind"
+    STR: v1, "null cannot be cast to non-null type com.chihihx.launcher.databinding.ItemHomeContentPorBinding"
+    STR: v7, "null cannot be cast to non-null type com.chihihx.launcher.databinding.ItemHomeLocalappsBinding"
+    STR: v7, "itemView"
+    STR: v8, "null cannot be cast to non-null type com.chihihx.launcher.view.MyFrameLayout"
+    STR: v9, "null cannot be cast to non-null type com.chihihx.launcher.databinding.HolderAdSrafBinding"
+  initContentForHorizontal$lambda$0$0$0()
+    STR: v0, "$this$loadAd"
+  initContentForHorizontal$lambda$0$0$0$0()
+    STR: v0, "$this$onAdCallback"
+  initContentForHorizontal$lambda$0$0$0$0$0()
+    STR: v1, "image"
+    STR: v2, "flAd"
+    STR: v0, "tvLoadding"
+  initContentForHorizontal$lambda$0$0$0$0$1()
+    STR: v1, "image"
+    STR: v2, "flAd"
+    STR: v0, "tvLoadding"
+  initContentForHorizontal$lambda$0$0$1$0()
+  initContentForHorizontal$lambda$0$0$1$1()
+    STR: v0, "it"
+  initContentForHorizontal$lambda$0$0$1$1$0()
+    STR: v2, ""
+  initContentForHorizontal$lambda$0$0$2()
+  initContentForHorizontal$lambda$0$0$3()
+    STR: v3, "packageName"
+    STR: v1, "getChildFragmentManager(...)"
+    STR: v1, "AppDialog"
+  initContentForHorizontal$lambda$0$0$4()
+  initContentForHorizontal$lambda$0$0$5()
+    STR: v0, "it"
+    STR: v0, "requireContext(...)"
+    STR: v2, ""
+  initContentForHorizontal$lambda$0$0$6()
+  initContentForHorizontal$lambda$0$0$7()
+    STR: v0, "it"
+    STR: v0, "requireContext(...)"
+  initContentForVertical()
+    STR: v1, "verticalContent"
+  initContentForVertical$lambda$0()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  initContentForVertical$lambda$0$0()
+    STR: v1, "$this$addType"
+  initContentForVertical$lambda$0$1()
+    STR: v0, "$this$onBind"
+    STR: v1, "bind"
+    STR: v10, "null cannot be cast to non-null type com.chihihx.launcher.databinding.ItemHomeContentGameBinding"
+    STR: v10, "null cannot be cast to non-null type com.chihihx.launcher.databinding.ItemHomeContentLanBinding"
+    STR: v6, "null cannot be cast to non-null type com.chihihx.launcher.databinding.HolderSetting3Binding"
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+  initContentForVertical$lambda$0$1$0()
+    STR: v0, "$this$loadAd"
+  initContentForVertical$lambda$0$1$0$0()
+    STR: v0, "$this$onAdCallback"
+  initContentForVertical$lambda$0$1$0$0$0()
+    STR: v2, "tvLoadding"
+    STR: v4, "flAd"
+    STR: v5, "image"
+  initContentForVertical$lambda$0$1$0$0$1()
+    STR: v2, "tvLoadding"
+    STR: v4, "flAd"
+    STR: v5, "image"
+  initContentForVertical$lambda$0$1$1$0()
+  initContentForVertical$lambda$0$1$1$1()
+    STR: v0, "it"
+  initContentForVertical$lambda$0$1$1$1$0()
+    STR: v2, ""
+  initContentForVertical$lambda$0$1$2$0()
+  initContentForVertical$lambda$0$1$2$1()
+    STR: v0, "it"
+  initContentForVertical$lambda$0$1$2$1$0()
+    STR: v0, "it"
+  initFocus()
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    CALL: v1, v2, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+  initFocus$lambda$0$0$0()
+    STR: v1, "rlSetting"
+  initFocus$lambda$0$1$0()
+    STR: v1, "projection"
+  initFocus$lambda$0$2$0()
+    STR: v1, "rlDisplay"
+  initFocus$lambda$0$3$0()
+    STR: v1, "hdml"
+  initFocus$lambda$0$4$0()
+    STR: v1, "rlWifi"
+  initHeader()
+    STR: v1, "header"
+  initHeader$lambda$0()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  initHeader$lambda$0$0()
+    STR: v0, "$this$onBind"
+    STR: v3, "null cannot be cast to non-null type com.chihihx.launcher.databinding.ItemHomeHeaderBinding"
+    STR: v6, "bind"
+    STR: v4, "flAd"
+    STR: v4, "image"
+    STR: v4, "title"
+    STR: v12, "itemView"
+  initHeader$lambda$0$0$0()
+    STR: v0, "$this$loadAd"
+  initHeader$lambda$0$0$0$0()
+    STR: v0, "$this$onAdCallback"
+  initHeader$lambda$0$0$0$0$0()
+    STR: v1, "flAd"
+    STR: v0, "image"
+  initHeader$lambda$0$0$0$0$1()
+    STR: v1, "flAd"
+    STR: v0, "image"
+  initHeader$lambda$0$0$1()
+    STR: v8, "requireActivity(...)"
+    STR: v4, "getSimpleName(...)"
+    STR: v5, "进来设置2"
+  initHeader$lambda$0$0$2()
+  initHeader$lambda$0$0$3()
+    STR: v0, "it"
+  initHeader$lambda$0$0$3$0()
+  initObserver$lambda$0()
+    STR: v2, "/Home.json"
+    CALL: v0, v2, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    CALL: v0, Ljava/io/File;->exists()Z
+  initObserver$lambda$1()
+  initObserver$lambda$2()
+  initObserver$lambda$3()
+    CALL: v1, Landroid/view/View;->requestFocus()Z
+  initObserver$lambda$4()
+  initObserver$lambda$5()
+  initObserver$lambda$6()
+    STR: v12, "不存在AppStore的Item"
+    CALL: v12, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    STR: v12, "getString(...)"
+    STR: v4, "ShortX"
+    STR: v1, "header"
+    STR: v11, "已经存在AppStore的Item"
+  initUpdateScope()
+  initdata$lambda$1()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  initdata$lambda$1$0()
+    STR: v0, "$this$onBind"
+    CALL: v0, v2, Landroid/view/View;->setFocusable(Z)V
+    CALL: v0, v2, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    CALL: v0, v3, Landroid/view/View;->setFocusable(Z)V
+    CALL: v4, v3, Landroid/view/View;->setFocusableInTouchMode(Z)V
+  j()
+  k()
+  l()
+  m()
+  n()
+  newInstance()
+  o()
+  p()
+  performTask()
+  performTask$lambda$0()
+    STR: v0, "jsonToString(...)"
+    CALL: v1, v3, v2, Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+    CALL: v1, v3, v2, Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+    STR: v7, "hour"
+  q()
+  r()
+  requestHome()
+  s()
+  selectWork()
+  setAppContent()
+    STR: v1, "horizontalContent"
+  setDefault()
+    STR: v3, "home.json"
+    STR: v5, "Youtube"
+    STR: v5, "Netflix"
+  setExpanded()
+  setHeader()
+    STR: v0, "header"
+  setMoviceContent()
+    STR: v2, "verticalContent"
+    STR: v9, "horizontalContent"
+  setNetData()
+  setProjectorContent()
+    CALL: v0, v1, Landroidx/leanback/widget/BaseGridView;->setFocusSearchDisabled(Z)V
+    STR: v2, "verticalContent"
+  setScreenCastData()
+    STR: v2, "horizontalContent"
+  setStoreContent()
+    STR: v1, "horizontalContent"
+  showAdWithInterval()
+  showEnterHomeAd()
+  startLauncherCheckPolling()
+  startLoopTime()
+  startRepeatingTask()
+  stopLoopTime()
+  switchMovice()
+  syncNotify()
+  syncNotify$lambda$0()
+    STR: v3, "usb"
+    STR: v3, "null cannot be cast to non-null type android.hardware.usb.UsbManager"
+    STR: v3, "requireActivity(...)"
+    CALL: v1, v2, Landroid/view/ViewGroup;->setDescendantFocusability(I)V
+    CALL: v1, v4, Landroid/view/View;->setFocusable(Z)V
+    CALL: v1, v4, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    CALL: v1, v2, Landroid/view/ViewGroup;->setDescendantFocusability(I)V
+    CALL: v1, v3, Landroid/view/View;->setFocusable(Z)V
+    CALL: v1, v3, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    STR: v3, "notifyRecycler"
+    STR: v2, "null cannot be cast to non-null type kotlin.collections.MutableList<com.chihihx.launcher.bean.Notify>"
+  syncTime()
+    CALL: v12, v10, v6, Landroidx/fragment/app/Fragment;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    STR: v3, "getString(...)"
+    STR: v1, "AM"
+    STR: v1, "PM"
+  t()
+  toast()
+    STR: v4, "getChildFragmentManager(...)"
+    STR: v4, "ToastDialog"
+  toastInstall()
+    CALL: v3, v0, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    STR: v1, "getString(...)"
+  toastInstallApp()
+    CALL: v3, v0, v1, Landroidx/fragment/app/Fragment;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    STR: v0, "getString(...)"
+  toastInstallPKApp()
+  u()
+  v()
+  w()
+  work()
+  work$lambda$0()
+  x()
+  y()
+  z()
+  addProduct5TypeItem()
+    STR: v0, "header"
+    CALL: v10, v0, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    STR: v0, "getString(...)"
+  clearAppData()
+    CALL: v4, v0, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    STR: v1, "getString(...)"
+  getAdIndex1()
+  getAdIndex2()
+  getAdJob()
+  getCurAdIndex()
+  getCurId()
+  getCurType()
+  getDialog()
+  getIndex_appstore()
+  getLastAdIndex()
+  getShouldSetPaddingTop()
+  getStoreJob()
+  getTempFrameLayout()
+  getTempImageView()
+  getTempTextView()
+  initClick()
+    CALL: v1, Lcom/chihihx/launcher/ui/fragment/MainFragment;->initFocus()V
+  initObserver()
+    STR: v1, "UPDATE_HOME_LIST"
+    STR: v1, "CANCLE_MAIN_LIFECYCLESCOPE"
+    STR: v1, "LOAD_DEFULT_RESOURCE"
+    STR: v1, "HOME_EVENT"
+    STR: v1, "UPDATE_WALLPAPER_EVENT"
+    STR: v1, "RERUN_SCOPE"
+    STR: v1, "ADD_APPSTORE"
+  initView()
+    STR: v2, "IS_MAIN_CANBACK"
+  initdata()
+    CALL: v3, v4, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    STR: v4, "getString(...)"
+    STR: v11, "ShortX"
+    STR: v2, "android.intent.action.PACKAGE_ADDED"
+    STR: v2, "android.intent.action.PACKAGE_REMOVED"
+    STR: v2, "android.intent.action.PACKAGE_REPLACED"
+    STR: v2, "package"
+    CALL: v1, Landroid/view/View;->requestFocus()Z
+    STR: v1, "notifyRecycler"
+  isAdPlaying()
+  isAdSelect()
+  isAppStoreSelect()
+  isShowAd()
+  onClick()
+    STR: v0, "v"
+    STR: v2, "requireContext(...)"
+    STR: v5, "com.android.tv.settings/.device.display.DisplayActivity"
+  onDestroy()
+  onOffsetChanged()
+    STR: v0, "appBarLayout"
+  onPause()
+  onResume()
+    STR: v2, "horizontalContent"
+    STR: v3, "null cannot be cast to non-null type kotlin.collections.MutableList<android.content.pm.ApplicationInfo>"
+  onStop()
+  setAdIndex1()
+  setAdIndex2()
+  setAdJob()
+  setAdPlaying()
+  setAdSelect()
+  setAppStoreSelect()
+  setCurAdIndex()
+  setCurId()
+  setCurType()
+  setDialog()
+  setIndex_appstore()
+  setLastAdIndex()
+  setRVHeight()
+    STR: v0, "header"
+    STR: v2, "toolbar"
+  setShowAd()
+  setStoreJob()
+  setTempFrameLayout()
+  setTempImageView()
+  setTempTextView()
+
+--- Lcom/chihihx/launcher/ui/fragment/ProjectorFragment$a; ---
+  <init>()
+  <init>()
+  a()
+
+--- Lcom/chihihx/launcher/ui/fragment/ProjectorFragment$b; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/ProjectorFragment$c; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/ProjectorFragment; ---
+  <init>()
+  clickItem()
+  clickItem$lambda$0()
+    STR: v0, "it"
+  d()
+  e()
+  f()
+  g()
+  h()
+  i()
+  initView$lambda$0$0()
+    CALL: v0, Landroid/view/View;->requestFocus()Z
+  newInstance()
+  setContent()
+    STR: v1, "content"
+  setContent$lambda$0()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  setContent$lambda$0$0()
+    STR: v0, "$this$onBind"
+    STR: v1, "null cannot be cast to non-null type com.chihihx.launcher.databinding.HolderSetting4Binding"
+    STR: v5, "bind"
+    STR: v4, "image"
+    CALL: v2, v3, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    STR: v11, "itemView"
+  setContent$lambda$0$0$0()
+  setContent$lambda$0$0$1()
+    STR: v0, "it"
+  initView()
+    CALL: v8, v1, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    STR: v0, "getRoot(...)"
+
+--- Lcom/chihihx/launcher/ui/fragment/ScaleScreenFragment$a; ---
+  <init>()
+  <init>()
+  a()
+
+--- Lcom/chihihx/launcher/ui/fragment/ScaleScreenFragment; ---
+  <init>()
+  getHwOffset()
+    STR: v0, "sys.fb.size"
+    STR: v1, ""
+    STR: v2, "persist.display.keystone_ltx."
+    STR: v2, "0"
+    STR: v3, "persist.display.keystone_lty."
+    STR: v3, "persist.display.keystone_lbx."
+    STR: v3, "persist.display.keystone_lby."
+    STR: v3, "persist.display.keystone_rbx."
+    STR: v3, "persist.display.keystone_rby."
+    STR: v3, "persist.display.keystone_rtx."
+    STR: v3, "persist.display.keystone_rty."
+  loadSettings()
+    STR: v0, "persist.display.keystone_ltx"
+    STR: v1, "0"
+    STR: v0, "persist.display.keystone_lty"
+    STR: v0, "persist.display.keystone_lbx"
+    STR: v0, "persist.display.keystone_lby"
+    STR: v0, "persist.display.keystone_rbx"
+    STR: v0, "persist.display.keystone_rby"
+    STR: v0, "persist.display.keystone_rtx"
+    STR: v0, "persist.display.keystone_rty"
+  newInstance()
+  reloadSettingsByRes()
+    STR: v0, "sys.fb.size"
+    STR: v1, ""
+    STR: v7, "persist.display.keystone_rtx"
+    STR: v8, "persist.display.keystone_rty"
+    STR: v1, "persist.display.keystone_ltx"
+    STR: v2, "persist.display.keystone_lty"
+    STR: v3, "persist.display.keystone_lbx"
+    STR: v4, "persist.display.keystone_lby"
+    STR: v5, "persist.display.keystone_rbx"
+    STR: v6, "persist.display.keystone_rby"
+    STR: v5, "."
+    STR: v5, "0"
+  reset()
+  resetIcon()
+  setDirImage()
+  setValue()
+  syncScale()
+  getMHwOffsetA()
+  getMHwOffsetB()
+  getMHwOffsetC()
+  getMHwOffsetD()
+  getUnitX()
+  getUnitY()
+  initView()
+    STR: v1, "window"
+    STR: v1, "null cannot be cast to non-null type android.view.WindowManager"
+    CALL: v0, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v0, Landroid/view/Display;->getWidth()I
+    CALL: v0, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v0, Landroid/view/Display;->getHeight()I
+  onKeyDown()
+  setMHwOffsetA()
+  setMHwOffsetB()
+  setMHwOffsetC()
+  setMHwOffsetD()
+  setUnitX()
+  setUnitY()
+
+--- Lcom/chihihx/launcher/ui/fragment/SettingFragment$a; ---
+  <init>()
+  <init>()
+  a()
+
+--- Lcom/chihihx/launcher/ui/fragment/SettingFragment$b; ---
+  <init>()
+  onChanged()
+
+--- Lcom/chihihx/launcher/ui/fragment/SettingFragment$c; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/SettingFragment$d; ---
+  <init>()
+  b()
+    STR: v2, "$this$null"
+  invoke()
+
+--- Lcom/chihihx/launcher/ui/fragment/SettingFragment; ---
+  <init>()
+  clickItem()
+    STR: v2, "requireContext(...)"
+    STR: v6, "com.android.tv.settings/.device.display.DisplayActivity"
+  d()
+  e()
+  f()
+  g()
+  h()
+  i()
+  initObserver$lambda$0()
+  initObserver$lambda$0$0$0()
+  initdata$lambda$0$0()
+    CALL: v0, Landroid/view/View;->requestFocus()Z
+  j()
+  newInstance()
+  setContent()
+    STR: v1, "content"
+  setContent$lambda$0()
+    STR: v0, "$this$setup"
+    STR: v0, "it"
+  setContent$lambda$0$0()
+    STR: v0, "$this$onBind"
+    STR: v1, "null cannot be cast to non-null type com.chihihx.launcher.databinding.HolderSettingBinding"
+    STR: v5, "bind"
+    STR: v4, "image"
+    CALL: v2, v3, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    STR: v11, "itemView"
+  setContent$lambda$0$0$0()
+  setContent$lambda$0$0$1()
+    STR: v0, "it"
+  initObserver()
+    STR: v2, "LANGUAGE_CHANGED"
+  initdata()
+    CALL: v2, v1, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+  onViewCreated()
+    STR: v0, "view"
+
+--- Lcom/shudong/lib_base/BaseWebActivity$a; ---
+  <init>()
+  <init>()
+
+--- Lcom/shudong/lib_base/BaseWebActivity$b; ---
+  <init>()
+  h()
+  i()
+    STR: v0, "rlNoData"
+  create()
+  invoke()
+  invoke()
+  invokeSuspend()
+    STR: v1, "url"
+    CALL: v5, v1, Landroid/view/View;->setFocusable(Z)V
+    CALL: v5, v1, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    STR: v0, "#1A2C3E"
+    STR: v0, "call to 'resume' before 'invoke' with coroutine"
+
+--- Lcom/shudong/lib_base/BaseWebActivity; ---
+  <init>()
+  F()
+  G()
+  I()
+    STR: v0, "https://m.jd.com/"
+  H()
+  J()
+  K()
+  t()
+  x()
+    CALL: v3, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    STR: v1, "web_url"
+    CALL: v0, v1, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    STR: v1, "zh"
+    STR: v1, "toLowerCase(...)"
+    STR: v1, "tw"
+    STR: v1, "mo"
+    STR: v1, "hk"
+    STR: v0, "file:///android_asset/privacy_policy_rTW.html"
+    STR: v0, "file:///android_asset/privacy_policy_rCN.html"
+    STR: v1, "pt"
+    STR: v0, "file:///android_asset/privacy_policy_pt.html"
+    STR: v1, "ja"
+    STR: v0, "file:///android_asset/privacy_policy_jar.html"
+    STR: v1, "es"
+    STR: v0, "file:///android_asset/privacy_policy_es.html"
+    STR: v1, "de"
+    STR: v0, "file:///android_asset/privacy_policy_de.html"
+    STR: v0, "file:///android_asset/privacy_policy_en.html"
+
+--- Lcom/shudong/lib_base/DataBinderMapperImpl$a; ---
+
+--- Lcom/shudong/lib_base/DataBinderMapperImpl; ---
+  <init>()
+  a()
+    CALL: v1, Landroidx/databinding/library/baseAdapters/DataBinderMapperImpl;-><init>()V
+    CALL: v1, Lcom/drake/brv/DataBinderMapperImpl;-><init>()V
+    CALL: v1, Lcom/shudong/lib_res/DataBinderMapperImpl;-><init>()V
+  b()
+    STR: v5, "layout/layout_net_error_0"
+    STR: v5, "The tag for layout_net_error is invalid. Received: "
+    STR: v5, "layout/activity_base_web_0"
+    STR: v5, "The tag for activity_base_web is invalid. Received: "
+    STR: v4, "view must have a tag"
+  c()
+    STR: v3, "view must have a tag"
+  d()
+
+--- Lcom/shudong/lib_base/base/LibAPP; ---
+  <init>()
+
+--- Lcom/shudong/lib_base/databinding/ActivityBaseWebBinding; ---
+  <init>()
+  bind()
+  bind()
+  inflate()
+  inflate()
+  inflate()
+  inflate()
+
+--- Lcom/shudong/lib_base/databinding/ActivityBaseWebBindingImpl; ---
+  <init>()
+  <init>()
+  executeBindings()
+  hasPendingBindings()
+  invalidateAll()
+  onFieldChange()
+  setVariable()
+
+--- Lcom/shudong/lib_base/databinding/DialogCenterCommonBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/databinding/FragmentTwkWebBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/databinding/LayoutLoadingBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/databinding/LayoutNetErrorBinding; ---
+  <init>()
+  bind()
+  bind()
+  inflate()
+  inflate()
+  inflate()
+  inflate()
+
+--- Lcom/shudong/lib_base/databinding/LayoutNetErrorBindingImpl; ---
+  <init>()
+  <init>()
+  executeBindings()
+  hasPendingBindings()
+  invalidateAll()
+  onFieldChange()
+  setVariable()
+
+--- Lcom/shudong/lib_base/databinding/LayoutTitlebarBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/databinding/LayoutToastBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/databinding/ViewRootBinding; ---
+  <init>()
+  bind()
+    STR: v1, "Missing required view with ID: "
+  inflate()
+  inflate()
+  getRoot()
+  getRoot()
+
+--- Lcom/shudong/lib_base/pop/CenterCommonDialog$a; ---
+  <init>()
+  <init>()
+  a()
+  b()
+  c()
+
+--- Lcom/shudong/lib_base/pop/CenterCommonDialog$b; ---
+  <init>()
+    STR: v0, "function"
+  equals()
+  getFunctionDelegate()
+  hashCode()
+  onChanged()
+
+--- Lcom/shudong/lib_base/pop/CenterCommonDialog; ---
+  L()
+  M()
+  N()
+  O()
+  P()
+  Q()
+  R()
+  S()
+    STR: v0, "llDialog"
+  T()
+  U()
+  V()
+    STR: v0, "it"
+  W()
+    STR: v0, "it"
+  getCancleText()
+  getConfirmSolidColor()
+  getConfirmText()
+  getContent()
+  getContentTextColor()
+  getImplLayoutId()
+  getSetup()
+  getTitle()
+  setCancleText()
+    STR: v0, "<set-?>"
+  setConfirmSolidColor()
+  setConfirmText()
+    STR: v0, "<set-?>"
+  setContent()
+    STR: v0, "<set-?>"
+  setContentTextColor()
+  setShowTitleOnly()
+  setSingleBtn()
+  setTitle()
+    STR: v0, "<set-?>"
+  setTitleTxt()
+    STR: v0, "title"
+  y()
+    STR: v3, "tvContent"
+    STR: v3, "tvCancle"
+    STR: v4, "tvConfirm"
+
+--- Lcom/shudong/lib_base/view/BadgeTextView; ---
+  <init>()
+    STR: v0, "context"
+  <init>()
+    STR: v0, "context"
+    STR: v4, "obtainStyledAttributes(...)"
+    CALL: v3, v4, v0, Landroid/content/res/TypedArray;->getInteger(I I)I
+    CALL: v3, v4, v0, Landroid/content/res/TypedArray;->getInteger(I I)I
+    CALL: v3, v4, v0, Landroid/content/res/TypedArray;->getFloat(I F)F
+    CALL: v3, v4, v0, Landroid/content/res/TypedArray;->getInteger(I I)I
+  getDrawBorder()
+  getDrawShadow()
+  getPaintBackground()
+  getPaintBorder()
+  getPaintDebug()
+  s()
+  setBadgeCount$default()
+  setBadgeCount$default()
+  t()
+  u()
+  w()
+  x()
+  y()
+  z()
+  getBadgeBackgroundColor()
+  getBadgeShadowColor()
+  getBadgeShadowRadius()
+  getBadgeShadowXOffset()
+  getBadgeShadowYOffset()
+  getBorderColor()
+  getBorderWidth()
+  getCircleShapeThreshold()
+  getMaxNumber()
+  getPaddingHorizontal()
+  getPaddingVertical()
+  getPinMode()
+  getRadiusRatio()
+  onDraw()
+    STR: v1, "canvas"
+  onMeasure()
+  setBadgeBackgroundColor()
+  setBadgeCount()
+    STR: v5, "0"
+  setBadgeCount()
+    STR: v0, "count"
+  setBadgeShadowColor()
+  setBadgeShadowRadius()
+  setBadgeShadowXOffset()
+  setBadgeShadowYOffset()
+  setBorderColor()
+  setBorderWidth()
+  setCircleShapeThreshold()
+  setDebug()
+  setMaxNumber()
+  setPaddingHorizontal()
+  setPaddingVertical()
+  setPinMode()
+    STR: v0, ""
+  setRadiusRatio()
+  v()
+    CALL: v1, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+--- Lcom/shudong/lib_base/view/ImageTextView$a; ---
+  <init>()
+  <init>()
+
+--- Lcom/shudong/lib_base/view/ImageTextView; ---
+  <init>()
+  <init>()
+  <init>()
+  onDraw()
+    STR: v0, "canvas"
+    CALL: v0, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    CALL: v0, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+  setImageInView()
+    CALL: v5, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+
+--- Lcom/shudong/lib_base/view/NestedScrollableHost; ---
+  <init>()
+    STR: v0, "context"
+  <init>()
+    STR: v0, "context"
+  getChild()
+  getParentViewPager()
+  a()
+  b()
+  onInterceptTouchEvent()
+    STR: v0, "e"
+
+--- Lcom/shudong/lib_base/view/recycle/LooperLayoutManager; ---
+  <init>()
+  I1()
+  K1()
+  M()
+  a2()
+  b2()
+  c2()
+  d2()
+  j1()
+  r()
+  s()
+
+--- Lcom/shudong/lib_base/view/recycle/MarqueeRecyclerView$a; ---
+  <init>()
+  run()
+
+--- Lcom/shudong/lib_base/view/recycle/MarqueeRecyclerView; ---
+  <init>()
+  a()
+  c()
+  d()
+  e()
+  onTouchEvent()
+  setAutoRun()
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState$a; ---
+  <init>()
+  a()
+    STR: v0, "in"
+    CALL: v0, v3, v1, Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState;-><init>(Landroid/os/Parcel; Lqw;)V
+  b()
+  createFromParcel()
+    CALL: v0, v1, Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState$a;->a(Landroid/os/Parcel;)Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState;
+  newArray()
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState$b; ---
+  <init>()
+  <init>()
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState; ---
+  <init>()
+    CALL: v2, v3, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
+    CALL: v0, v3, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    CALL: v0, v3, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+  <init>()
+    CALL: v0, v1, Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState;-><init>(Landroid/os/Parcel;)V
+  <init>()
+    CALL: v0, v1, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
+  describeContents()
+  k()
+  l()
+  m()
+  n()
+  writeToParcel()
+    STR: v0, "out"
+    CALL: v1, v2, v3, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel; I)V
+    CALL: v0, v2, v3, Landroid/text/TextUtils;->writeToParcel(Ljava/lang/CharSequence; Landroid/os/Parcel; I)V
+    CALL: v0, v2, v3, Landroid/text/TextUtils;->writeToParcel(Ljava/lang/CharSequence; Landroid/os/Parcel; I)V
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton$a; ---
+  <init>()
+  <init>()
+  a()
+  b()
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton$b; ---
+  <init>()
+  run()
+
+--- Lcom/shudong/lib_base/view/switchbutton/SwitchButton; ---
+  <init>()
+  <init>()
+  <init>()
+  a()
+  getProgress()
+  getStatusBasedOnPos()
+  h()
+    STR: v0, "valueAnimator"
+    STR: v0, "null cannot be cast to non-null type kotlin.Float"
+  setDrawableState()
+  setProgress()
+  b()
+  c()
+  d()
+  drawableStateChanged()
+  e()
+  f()
+  g()
+    CALL: v4, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    CALL: v4, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    CALL: v5, v2, v9, Landroid/content/res/TypedArray;->getFloat(I F)F
+    CALL: v5, v2, v3, Landroid/content/res/TypedArray;->getInteger(I I)I
+    CALL: v5, v3, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
+    CALL: v5, v2, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
+    CALL: v0, v15, Landroid/view/View;->setFocusable(Z)V
+    CALL: v0, v4, Landroid/view/View;->setFocusable(Z)V
+    STR: v3, "getContext(...)"
+  getAnimationDuration()
+  getBackColor()
+  getBackDrawable()
+  getBackRadius()
+  getBackSizeF()
+  getTextOff()
+  getTextOn()
+  getThumbColor()
+  getThumbDrawable()
+  getThumbHeight()
+  getThumbMargin()
+  getThumbRadius()
+  getThumbRangeRatio()
+  getThumbWidth()
+  getTintColor()
+  i()
+  j()
+    CALL: v1, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+    CALL: v6, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+  k()
+    CALL: v1, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    CALL: v10, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+  l()
+  onDraw()
+    STR: v0, "canvas"
+    STR: v1, "#AA0000"
+    STR: v1, "#0000FF"
+    STR: v1, "#000000"
+    STR: v0, "#00CC00"
+  onMeasure()
+  onRestoreInstanceState()
+    STR: v0, "state"
+    CALL: v3, Landroid/view/AbsSavedState;->getSuperState()Landroid/os/Parcelable;
+    CALL: v2, v3, Landroid/widget/CompoundButton;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+  onSaveInstanceState()
+    CALL: v2, Landroid/widget/CompoundButton;->onSaveInstanceState()Landroid/os/Parcelable;
+    CALL: v1, v0, Lcom/shudong/lib_base/view/switchbutton/SwitchButton$SavedState;-><init>(Landroid/os/Parcelable;)V
+  onSizeChanged()
+  onTouchEvent()
+    STR: v0, "event"
+    CALL: v9, Landroid/view/View;->isFocusable()Z
+  setAnimationDuration()
+  setBackColor()
+  setBackColorRes()
+    STR: v1, "getContext(...)"
+  setBackDrawable()
+  setBackDrawableRes()
+    STR: v1, "getContext(...)"
+  setBackRadius()
+  setChecked()
+  setCheckedImmediately()
+  setCheckedImmediatelyNoEvent()
+  setCheckedNoEvent()
+  setDrawDebugRect()
+  setFadeBack()
+  setOnCheckedChangeListener()
+  setText()
+  setTextAdjust()
+  setTextExtra()
+  setTextThumbInset()
+  setThumbColor()
+  setThumbColorRes()
+    STR: v1, "getContext(...)"
+  setThumbDrawable()
+  setThumbDrawableRes()
+    STR: v1, "getContext(...)"
+  setThumbMargin()
+  setThumbMargin()
+  setThumbRadius()
+  setThumbRangeRatio()
+  setThumbSize()
+  setTintColor()
+
+
+============ KeystoneCorrection - Core Classes ============
+
+======================================================================
+  DEEP ANALYSIS: KeystoneCorrection.apk
+======================================================================
+
+--- Lcom/softwinner/keystone/KeystoneCorrection; ---
+  <init>()
+  toString()
+    STR: v1, "mZoom_h="
+    STR: v1, " mZoom_v="
+    STR: v1, " leftBottomX="
+    STR: v1, " leftBottomY="
+    STR: v1, " leftTopX="
+    STR: v1, " leftTopY="
+    STR: v1, " rightBottomX="
+    STR: v1, " rightBottomY="
+    STR: v1, " rightTopX="
+    STR: v1, " rightTopY="
+
+--- Lcom/softwinner/keystone/KeystoneCorrectionManager; ---
+  <init>()
+  setKeystoneCorrection()
+    STR: v1, "KeystoneCorrectionManager"
+    STR: v3, "SurfaceFlinger"
+    CALL: v3, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
+    CALL: Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    STR: v5, "android.ui.ISurfaceComposer"
+    CALL: v4, v5, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v4, v5, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v3, v5, v4, v6, v2, Landroid/os/IBinder;->transact(I Landroid/os/Parcel; Landroid/os/Parcel; I)Z
+    CALL: v4, Landroid/os/Parcel;->recycle()V
+    CALL: Lcom/softwinner/tv/AwTvDisplayManager;->getInstance()Lcom/softwinner/tv/AwTvDisplayManager;
+    CALL: v7 ... v17, Lcom/softwinner/tv/AwTvDisplayManager;->setKeystoreValue(F F I I I I I I I I)V
+    STR: v0, "error get surfaceflinger service"
+    STR: v0, "error talk with surfaceflinger service"
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$$ExternalSyntheticLambda0; ---
+  <init>()
+  onClick()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/CheckGsensorActivity;->$r8$lambda$FsGhwLaB0cRbZfSrh6qRRT3CUTw(Lcom/softwinner/tcorrection/CheckGsensorActivity; Landroid/view/View;)V
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$1; ---
+  <init>()
+  handleMessage()
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$000(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/os/Handler;
+    CALL: v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$100(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/res/Resources;
+    CALL: v2, v3, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    STR: v5, "..."
+    CALL: v4, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$100(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/res/Resources;
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$2$1; ---
+  <init>()
+  run()
+    CALL: v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$100(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/res/Resources;
+    CALL: v2, v1, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$2; ---
+  <init>()
+  run()
+    CALL: v1, v2, Lcom/softwinner/tcorrection/CheckGsensorActivity$2$1;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity$2;)V
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$3; ---
+  <init>()
+  run()
+    STR: v3, "/"
+    STR: v3, "("
+    STR: v1, ")"
+    CALL: v2, v3, v1, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$200(Lcom/softwinner/tcorrection/CheckGsensorActivity; I Ljava/lang/String;)V
+    STR: v0, "CheckGsensorActivity"
+    STR: v1, "Error startTimer"
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$4$1; ---
+  <init>()
+  run()
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$100(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/res/Resources;
+    CALL: v0, v2, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    CALL: v3, Landroid/widget/Button;->requestFocus()Z
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity$4; ---
+  <init>()
+  run()
+    STR: v0, "checkGSensorZero 陀螺仪零度平均值："
+    STR: v1, "0"
+    STR: v3, "do checkGSensorZero..."
+    CALL: v2, v3, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v10, "persist.vendor.gsensor.acc_z"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v11, ""
+    STR: v10, "persist.vendor.gsensor.acc_x"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v10, "persist.vendor.gsensor.acc_y"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v10, "persist.vendor.gsensor.gyr_z"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v10, "persist.vendor.gsensor.gyr_x"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v10, "persist.vendor.gsensor.gyr_y"
+    CALL: v10, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v9, "checkGSensorZero org data:"
+    CALL: v1, v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v9, "checkGSensorZero 去掉最大值和最小值后的数据X："
+    CALL: v2, v8, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v9, "checkGSensorZero 去掉最大值和最小值后的数据Y："
+    CALL: v2, v8, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v9, "checkGSensorZero 去掉最大值和最小值后的数据Z："
+    CALL: v2, v8, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    CALL: v3, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    CALL: v3, v8, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v3, "persist.vendor.gsensor.acc_x_offset"
+    CALL: v3, v8, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v4, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    CALL: v4, v8, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v4, "persist.vendor.gsensor.acc_y_offset"
+    CALL: v4, v8, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v5, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    CALL: v5, v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$300(Lcom/softwinner/tcorrection/CheckGsensorActivity; Ljava/lang/String;)V
+    STR: v0, "persist.vendor.gsensor.acc_z_offset"
+    CALL: v0, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v5, "acc_x_offset"
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v2, "acc_y_offset"
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v2, "acc_z_offset"
+    CALL: v6, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    STR: v2, "persist.vendor.gsensor.gyr_x_offset"
+    CALL: v2, v3, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v7, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    STR: v3, "persist.vendor.gsensor.gyr_y_offset"
+    CALL: v3, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v1, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$400([F)F
+    STR: v3, "persist.vendor.gsensor.gyr_z_offset"
+    CALL: v3, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v3, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v4, "gyr_x_offset"
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v3, "gyr_y_offset"
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->access$500(Lcom/softwinner/tcorrection/CheckGsensorActivity;)Landroid/content/Context;
+    STR: v2, "gyr_z_offset"
+    STR: v0, "vendor.gsensor.check"
+    STR: v1, "false"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v1, v12, Lcom/softwinner/tcorrection/CheckGsensorActivity$4$1;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity$4;)V
+    STR: v0, "CheckGsensorActivity"
+    STR: v1, "Error checkGSensorZero"
+
+--- Lcom/softwinner/tcorrection/CheckGsensorActivity; ---
+  $r8$lambda$FsGhwLaB0cRbZfSrh6qRRT3CUTw()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/CheckGsensorActivity;->lambda$onCreate$0(Landroid/view/View;)V
+  <init>()
+    CALL: v1, v2, Lcom/softwinner/tcorrection/CheckGsensorActivity$1;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity;)V
+  LOGD()
+    STR: v0, "CheckGsensorActivity"
+  access$000()
+  access$100()
+  access$200()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->sendMsgToHandler(I Ljava/lang/String;)V
+  access$300()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/CheckGsensorActivity;->LOGD(Ljava/lang/String;)V
+  access$400()
+    CALL: v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->calculateAverage([F)F
+  access$500()
+  calculateAverage()
+  checkGSensorZero()
+    CALL: v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->startTimer()V
+    STR: v0, "vendor.gsensor.check"
+    STR: v1, "true"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v0, v2, Lcom/softwinner/tcorrection/CheckGsensorActivity$4;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity;)V
+  lambda$onCreate$0()
+    STR: v3, "Gsensor Button Clicked!"
+    CALL: v2, v3, Lcom/softwinner/tcorrection/CheckGsensorActivity;->LOGD(Ljava/lang/String;)V
+    CALL: v0, v1, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    CALL: v2, Lcom/softwinner/tcorrection/CheckGsensorActivity;->checkGSensorZero()V
+  sendMsgToHandler()
+  startTimer()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/CheckGsensorActivity$3;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity;)V
+  onCreate()
+    STR: v1, "lang: "
+    CALL: v3, v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->LOGD(Ljava/lang/String;)V
+    STR: v0, "zh"
+    CALL: v4, Landroid/widget/Button;->requestFocus()Z
+    CALL: v1, v2, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    CALL: v4, v3, Lcom/softwinner/tcorrection/CheckGsensorActivity$2;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity;)V
+    CALL: v0, v3, Lcom/softwinner/tcorrection/CheckGsensorActivity$$ExternalSyntheticLambda0;-><init>(Lcom/softwinner/tcorrection/CheckGsensorActivity;)V
+  onPause()
+    STR: v0, "--- onPause ---"
+    CALL: v1, v0, Lcom/softwinner/tcorrection/CheckGsensorActivity;->LOGD(Ljava/lang/String;)V
+
+--- Lcom/softwinner/tcorrection/CircleView; ---
+  <init>()
+  <init>()
+    CALL: v5, v1, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    CALL: v5, v1, Landroid/view/View;->setFocusable(Z)V
+    STR: v0, "window"
+    CALL: v6, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v6, Landroid/view/Display;->getWidth()I
+    CALL: v6, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v6, Landroid/view/Display;->getHeight()I
+    CALL: v5, Lcom/softwinner/tcorrection/CircleView;->getHwOffset()V
+    CALL: v5, Lcom/softwinner/tcorrection/CircleView;->loadSettings()V
+    STR: v6, "persist.sys.projection"
+    CALL: v6, v7, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    CALL: v6, Lcom/softwinner/keystone/KeystoneCorrectionManager;-><init>()V
+  DrawLinePath()
+  getHwOffset()
+    STR: v0, "sys.fb.size"
+    STR: v1, ""
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v2, "persist.display.keystone_ltx."
+    STR: v2, "0"
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lty."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lbx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lby."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rbx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rby."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rtx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rty."
+    CALL: v0, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+  getKeystoneEnable()
+  initBitmap()
+  loadSettings()
+    STR: v0, "persist.display.keystone_ltx"
+    STR: v1, "0"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_lty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_lbx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_lby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_rbx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_rby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_rtx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v0, "persist.display.keystone_rty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+  reloadSettingsByRes()
+    STR: v0, "sys.fb.size"
+    STR: v1, ""
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v1, "persist.display.keystone_ltx"
+    STR: v2, "persist.display.keystone_lty"
+    STR: v3, "persist.display.keystone_lbx"
+    STR: v4, "persist.display.keystone_lby"
+    STR: v5, "persist.display.keystone_rbx"
+    STR: v6, "persist.display.keystone_rby"
+    STR: v7, "persist.display.keystone_rtx"
+    STR: v8, "persist.display.keystone_rty"
+    STR: v5, "."
+    STR: v5, "0"
+    CALL: v4, v5, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    CALL: v3, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v7, "Set ["
+    STR: v3, "] to "
+    CALL: v9, Lcom/softwinner/tcorrection/CircleView;->loadSettings()V
+  trasferFixedaxis()
+  onDraw()
+    STR: v3, "[onDraw]"
+    STR: v5, "[CircleView]pointX:"
+    STR: v5, ",pointY:"
+    CALL: v24, Lcom/softwinner/tcorrection/CircleView;->initBitmap()V
+    CALL: v24, Lcom/softwinner/tcorrection/CircleView;->trasferFixedaxis()V
+    CALL: v24, Lcom/softwinner/tcorrection/CircleView;->DrawLinePath()V
+    STR: v2, ""
+    CALL: v1, Lcom/softwinner/keystone/KeystoneCorrectionManager;-><init>()V
+    STR: v1, "persist.display.keystone_zoom_h"
+    STR: v2, "100.0"
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_zoom_v"
+    CALL: v3, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    CALL: v3 ... v21, Lcom/softwinner/keystone/KeystoneCorrection;-><init>(F F D D D D D D D D)V
+    STR: v3, "kc String::==========="
+    CALL: v22, Lcom/softwinner/keystone/KeystoneCorrection;->toString()Ljava/lang/String;
+    CALL: v1, v2, Lcom/softwinner/keystone/KeystoneCorrectionManager;->setKeystoneCorrection(Lcom/softwinner/keystone/KeystoneCorrection;)Z
+    CALL: v24, Lcom/softwinner/tcorrection/CircleView;->getKeystoneEnable()Z
+  onKeyDown()
+    STR: v2, "[onKeyDown]keyCode:"
+    CALL: v6, Lcom/softwinner/tcorrection/CircleView;->reloadSettingsByRes()V
+  onTouchEvent()
+    STR: v6, "press ...."
+
+--- Lcom/softwinner/tcorrection/MainActivity; ---
+  <init>()
+  onCreate()
+
+--- Lcom/softwinner/tcorrection/ScaleActivity; ---
+  <init>()
+  onCreate()
+
+--- Lcom/softwinner/tcorrection/ScaleCircleView; ---
+  <init>()
+    STR: v4, "persist.display.keystone_zoom_h"
+    STR: v5, "100.0"
+    CALL: v4, v5, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v4, "persist.display.keystone_zoom_v"
+    CALL: v4, v5, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+  <init>()
+    STR: v3, "persist.display.keystone_zoom_h"
+    STR: v4, "100.0"
+    CALL: v3, v4, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_zoom_v"
+    CALL: v3, v4, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    CALL: v7, v1, Landroid/view/View;->setFocusableInTouchMode(Z)V
+    CALL: v7, v1, Landroid/view/View;->setFocusable(Z)V
+    CALL: v8, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    STR: v9, "window"
+    CALL: v8, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v8, Landroid/view/Display;->getWidth()I
+    CALL: v8, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v8, Landroid/view/Display;->getHeight()I
+    CALL: v7, Lcom/softwinner/tcorrection/ScaleCircleView;->getHwOffset()V
+    CALL: v7, Lcom/softwinner/tcorrection/ScaleCircleView;->loadSettings()V
+    CALL: v8, Lcom/softwinner/keystone/KeystoneCorrectionManager;-><init>()V
+  DrawLinePath()
+  getHwOffset()
+    STR: v0, "sys.fb.size"
+    STR: v1, ""
+    CALL: v0, v1, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v2, "persist.display.keystone_ltx."
+    STR: v2, "0"
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lty."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lbx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_lby."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rbx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rby."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rtx."
+    CALL: v1, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    STR: v3, "persist.display.keystone_rty."
+    CALL: v0, v2, Landroid/os/SystemProperties;->get(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+  initBitmap()
+  loadSettings()
+    STR: v0, "persist.display.keystone_lbx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_ltx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_rbx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_rtx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_lby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_lty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_rby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v0, "persist.display.keystone_rty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "mZoom_h="
+    STR: v2, " mZoom_v="
+    STR: v2, " leftBottomX="
+    STR: v2, " leftBottomY="
+    STR: v2, " leftTopX="
+    STR: v2, " leftTopY="
+    STR: v2, " rightBottomX="
+    STR: v2, " rightBottomY="
+    STR: v2, " rightTopX="
+    STR: v2, " rightTopY="
+  reloadSettingsByRes()
+    CALL: v1, Lcom/softwinner/tcorrection/ScaleCircleView;->loadSettings()V
+    CALL: v1, Lcom/softwinner/tcorrection/ScaleCircleView;->writeParcelToFlinger()V
+  setZoomBig()
+    CALL: v4, Lcom/softwinner/tcorrection/ScaleCircleView;->writeParcelToFlinger()V
+    STR: v3, "setZoomBig: mZoom_h = "
+    STR: v3, "mZoom_v ="
+    CALL: v4, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  setZoomSmall()
+    CALL: v4, Lcom/softwinner/tcorrection/ScaleCircleView;->writeParcelToFlinger()V
+    STR: v3, "setZoomSmall: mZoom_h = "
+    STR: v3, "mZoom_v ="
+    CALL: v4, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  trasferFixedaxis()
+  writeParcelToFlinger()
+    STR: v2, "writeParcelToFlinger mLeftBottomX="
+    STR: v2, " mLeftTopX="
+    STR: v2, " mRightTopX="
+    STR: v2, " mRightBottomX="
+    STR: v2, "writeParcelToFlinger mLeftBottomY="
+    STR: v2, " mLeftTopY="
+    STR: v2, " mRightTopY="
+    STR: v2, " mRightBottomY="
+    STR: v2, "BootAnimationStopped: "
+    STR: v2, "service.bootanim.exit"
+    CALL: v2, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    CALL: v2, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    STR: v1, "1"
+    CALL: Lcom/softwinner/tv/AwTvDisplayManager;->getInstance()Lcom/softwinner/tv/AwTvDisplayManager;
+    CALL: v1 ... v11, Lcom/softwinner/tv/AwTvDisplayManager;->setKeystoreValue(F F I I I I I I I I)V
+  onDraw()
+    STR: v3, "[onDraw]"
+    STR: v5, "[ScaleCircleView]pointX:"
+    STR: v5, ",pointY:"
+    CALL: v19, Lcom/softwinner/tcorrection/ScaleCircleView;->initBitmap()V
+    CALL: v19, Lcom/softwinner/tcorrection/ScaleCircleView;->trasferFixedaxis()V
+    CALL: v19, Lcom/softwinner/tcorrection/ScaleCircleView;->DrawLinePath()V
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    CALL: v4, v5, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    STR: v4, "( "
+    STR: v4, " )"
+    CALL: v1, Lcom/softwinner/keystone/KeystoneCorrectionManager;-><init>()V
+    STR: v3, "onDraw   mZoom_h="
+    STR: v3, " mZoom_v="
+    STR: v3, " leftBottomX="
+    STR: v3, " leftBottomY="
+    STR: v3, " leftTopX="
+    STR: v3, " leftTopY="
+    STR: v3, " rightBottomX="
+    STR: v3, " rightBottomY="
+    STR: v3, " rightTopX="
+    STR: v3, " rightTopY="
+    CALL: v19, Lcom/softwinner/tcorrection/ScaleCircleView;->writeParcelToFlinger()V
+  onKeyDown()
+    STR: v2, "[onKeyDown]keyCode:"
+    CALL: v8, Lcom/softwinner/tcorrection/ScaleCircleView;->setZoomBig()V
+    CALL: v8, Lcom/softwinner/tcorrection/ScaleCircleView;->setZoomSmall()V
+    CALL: v8, Lcom/softwinner/tcorrection/ScaleCircleView;->setZoomSmall()V
+    CALL: v8, Lcom/softwinner/tcorrection/ScaleCircleView;->setZoomBig()V
+    CALL: v8, Lcom/softwinner/tcorrection/ScaleCircleView;->reloadSettingsByRes()V
+    CALL: v1, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  onTouchEvent()
+    STR: v6, "press ...."
+
+--- Lcom/softwinner/tcorrection/projection/ActivityAngleBinding; ---
+  <init>()
+    CALL: v1, Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;->findViews()V
+  findViews()
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$5; ---
+  <init>()
+  run()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$600(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$6; ---
+  <init>()
+  getDrawable()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$700(Lcom/softwinner/tcorrection/projection/AngleActivity; Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity; ---
+  <init>()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity$1;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity$2;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity$3;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity$4;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+  access$000()
+  access$100()
+  access$202()
+  access$300()
+  access$400()
+  access$500()
+  access$600()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->lambda$onCreate$0$AngleActivity()V
+  access$700()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->lambda$initView$1$AngleActivity(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+  initView()
+    CALL: v0, v5, Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;-><init>(Landroid/app/Activity;)V
+    CALL: v5, v1, v0, Landroid/app/Activity;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    CALL: v2, v5, Lcom/softwinner/tcorrection/projection/AngleActivity$6;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+  lambda$initView$1$AngleActivity()
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+  lambda$onCreate$0$AngleActivity()
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+  onCreate()
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->initView()V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/AngleActivity$5;-><init>(Lcom/softwinner/tcorrection/projection/AngleActivity;)V
+  onDestroy()
+  onKeyDown()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->onDown()V
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->onUp()V
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->onRight()V
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->onLeft()V
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleState;->reset()V
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleState;->reset()V
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleState;->reset()V
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleState;->reset()V
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+    CALL: Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->resetKeyStone()V
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->onCenter()V
+  onKeyUp()
+
+--- Lcom/softwinner/tcorrection/projection/AngleState; ---
+  in()
+    [no code - abstract/native]
+  onCenter()
+    [no code - abstract/native]
+  onDown()
+    [no code - abstract/native]
+  onLeft()
+    [no code - abstract/native]
+  onRight()
+    [no code - abstract/native]
+  onUp()
+    [no code - abstract/native]
+  reset()
+    [no code - abstract/native]
+
+--- Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity$1; ---
+  <init>()
+  getDrawable()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity;->access$000(Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity; Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+
+--- Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity; ---
+  <init>()
+  access$000()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity;->lambda$initView$0$ManuelCorrectionActivity(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+  initView()
+    CALL: v4, v1, v0, Landroid/app/Activity;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    CALL: v2, v4, Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity$1;-><init>(Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity;)V
+  lambda$initView$0$ManuelCorrectionActivity()
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+  onCreate()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/ManuelCorrectionActivity;->initView()V
+  onDestroy()
+  onKeyDown()
+    CALL: v1, v2, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v1, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v2, v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v2, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v2, v4, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v1, v4, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  onKeyUp()
+  onResume()
+    CALL: v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    CALL: v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  onStop()
+
+--- Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity; ---
+  <init>()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity$1;-><init>(Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity$2;-><init>(Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;)V
+  access$000()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->lambda$new$0$RecyclerviewBaseActivity(Landroid/view/View;)Z
+  findView()
+    CALL: v4, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->getSettingAdapterLists()Ljava/util/List;
+    CALL: v0, v4, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;-><init>(Landroid/content/Context; Ljava/util/List;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->setOnItemListener(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnItemListener;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->setOnLRClickListener(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnLRClickListener;)V
+    CALL: v0, Landroid/view/ViewGroup;->requestFocus()Z
+  lambda$new$0$RecyclerviewBaseActivity()
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->dropRight(I)V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->dropLeft(I)V
+  dropLeft()
+    [no code - abstract/native]
+  dropRight()
+    [no code - abstract/native]
+  getSettingAdapterLists()
+  itemChangedAll()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->itemChangedAll()V
+  itemClick()
+    [no code - abstract/native]
+  itemFocused()
+    [no code - abstract/native]
+  onCreate()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->findView()V
+  onKeyDown()
+    CALL: v1, v0, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->dropLeft(I)V
+    CALL: v1, v0, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->dropRight(I)V
+  setSettingAdapterLists()
+    CALL: v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;-><init>()V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setEnable(Z)V
+    CALL: v2, v4, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setSettingStr(Ljava/lang/String;)V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setNextWindowFlag(Z)V
+    STR: v5, "IS_CHECK"
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsCheckBox(Z)V
+    CALL: v2, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsCheckBox(Z)V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setLRVisible(Z)V
+    CALL: v2, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setNextWindowFlag(Z)V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setSettingTwoStr(Ljava/lang/String;)V
+    CALL: v2, v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setPosition(I)V
+  setSettingTitle()
+    CALL: v1, v2, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+--- Lcom/softwinner/tcorrection/projection/ZoomActivity$1; ---
+  <init>()
+  getDrawable()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/ZoomActivity;->access$000(Lcom/softwinner/tcorrection/projection/ZoomActivity; Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+
+--- Lcom/softwinner/tcorrection/projection/ZoomActivity; ---
+  <init>()
+  access$000()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/ZoomActivity;->lambda$initView$0$ZoomActivity(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+  initView()
+    CALL: v4, v1, v0, Landroid/app/Activity;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    CALL: v2, v4, Lcom/softwinner/tcorrection/projection/ZoomActivity$1;-><init>(Lcom/softwinner/tcorrection/projection/ZoomActivity;)V
+  lambda$initView$0$ZoomActivity()
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+    CALL: v2, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+  setZoomBig()
+    CALL: v2, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  setZoomSmall()
+    STR: v0, "ZoomActivity"
+    STR: v1, "onKeyDown: now"
+    CALL: v2, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  onCreate()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/ZoomActivity;->initView()V
+  onDestroy()
+  onKeyDown()
+    CALL: v3, Lcom/softwinner/tcorrection/projection/ZoomActivity;->setZoomBig()V
+    CALL: v3, Lcom/softwinner/tcorrection/projection/ZoomActivity;->setZoomSmall()V
+    CALL: v3, Lcom/softwinner/tcorrection/projection/ZoomActivity;->setZoomSmall()V
+    CALL: v3, Lcom/softwinner/tcorrection/projection/ZoomActivity;->setZoomBig()V
+    CALL: v3, v4, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  onKeyUp()
+    STR: v0, "ZoomActivity"
+    STR: v1, "onKeyUp: arrowKeysImage"
+  onResume()
+    CALL: v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  onStop()
+
+--- Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$1; ---
+  <init>()
+  onClick()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->access$000(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter; I Landroid/view/View;)V
+
+--- Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$2; ---
+  <init>()
+  onFocusChange()
+    CALL: v0, v1, v2, v3, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->access$100(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter; I Landroid/view/View; Z)V
+
+--- Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnItemListener; ---
+  onItemClick()
+    [no code - abstract/native]
+  onItemFocused()
+    [no code - abstract/native]
+
+--- Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnLRClickListener; ---
+  onLRClick()
+    [no code - abstract/native]
+
+--- Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo; ---
+  <init>()
+  getCheckVisible()
+  getIsCheckBox()
+  getIsEnable()
+  getIsViewGone()
+  getLRVisible()
+  getNextWindowFlag()
+  getSettingStr()
+  getSettingTwoStr()
+  isShowSwitch()
+  isSwitchOn()
+  setEnable()
+  setIsCheckBox()
+  setIsViewGone()
+  setLRVisible()
+  setNextWindowFlag()
+  setPosition()
+  setSettingStr()
+  setSettingTwoStr()
+  setShowSwitch()
+  setSwitchOn()
+
+--- Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid$Point; ---
+  <init>()
+
+--- Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid; ---
+  getKeyStoneParame()
+    STR: v1, "persist.keystone.vertical.degree"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.keystone.horizontal.degree"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.keystone.rotation.degree"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.keystone.zoom.percent"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.rty"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.rtx"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.rby"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.rbx"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.lty"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.ltx"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.lby"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v1, "persist.cus.keystone.lbx"
+    CALL: v1, v0, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+  matrix_transform()
+    STR: v2, "persist.cus.keystone.ltx"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.lty"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.rtx"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.rty"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.lbx"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.lby"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.rbx"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    STR: v2, "persist.cus.keystone.rby"
+    CALL: v2, v3, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+  resetKeyStone()
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->writeParcelToFlinger([I)V
+    STR: v0, "persist.cus.keystone.lbx"
+    STR: v1, "0"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.lby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.ltx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.lty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.rbx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.rby"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.rtx"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.cus.keystone.rty"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.keystone.zoom.percent"
+    STR: v2, "100"
+    CALL: v0, v2, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.keystone.rotation.degree"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.keystone.horizontal.degree"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v0, "persist.keystone.vertical.degree"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+  setKeyStoneParame()
+    STR: v0, "persist.keystone.vertical.degree"
+    STR: v1, "persist.keystone.horizontal.degree"
+    STR: v2, "persist.keystone.rotation.degree"
+    STR: v3, "persist.keystone.zoom.percent"
+    CALL: v0, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v1, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v2, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v3, v4, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.rty"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.rtx"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.rby"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.rbx"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.lty"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.ltx"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.lby"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    STR: v4, "persist.cus.keystone.lbx"
+    CALL: v4, v5, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v3, v4, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    CALL: v2, v5, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    CALL: v1, v5, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    CALL: v0, v5, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+  setzoomrotate()
+    STR: v3, "ro.jm.model.name"
+    CALL: v3, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    STR: v4, "X10-Pro"
+    CALL: v9, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->writeParcelToFlinger([I)V
+  writeParcelToFlinger()
+    STR: v0, "SetTrapezoid"
+    STR: v1, "SurfaceFlinger"
+    CALL: v1, Landroid/os/ServiceManager;->getService(Ljava/lang/String;)Landroid/os/IBinder;
+    CALL: Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    STR: v2, "android.ui.ISurfaceComposer"
+    CALL: v1, v2, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v3, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v1, v7, Landroid/os/Parcel;->writeFloat(F)V
+    CALL: v7, v3, v1, v4, v2, Landroid/os/IBinder;->transact(I Landroid/os/Parcel; Landroid/os/Parcel; I)Z
+    CALL: v1, Landroid/os/Parcel;->recycle()V
+    STR: v7, "error get surfaceflinger service"
+    STR: v7, "error talk with surfaceflinger service"
+
+--- Lcom/softwinner/tcorrection/util/ScreenUtils; ---
+  getAppScreenHeight()
+    STR: v0, "window"
+    CALL: v1, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v1, v0, Landroid/view/Display;->getSize(Landroid/graphics/Point;)V
+  getAppScreenWidth()
+    STR: v0, "window"
+    CALL: v1, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+    CALL: v1, v0, Landroid/view/Display;->getSize(Landroid/graphics/Point;)V
+
+--- Lcom/softwinner/tcorrection/util/Util; ---
+  startActivityByIntent()
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$1; ---
+  <init>()
+    CALL: v2, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    CALL: v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  update()
+    CALL: v2, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v1, v3, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  in()
+    CALL: v0, v10, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$202(Lcom/softwinner/tcorrection/projection/AngleActivity; Lcom/softwinner/tcorrection/projection/AngleState;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v9, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v5, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+  onCenter()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$000(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+  onDown()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$1;->update()V
+  onLeft()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$1;->update()V
+  onRight()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$1;->update()V
+  onUp()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$1;->update()V
+  reset()
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$2; ---
+  <init>()
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  update()
+    CALL: v1, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v0, v2, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  in()
+    CALL: v0, v9, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$202(Lcom/softwinner/tcorrection/projection/AngleActivity; Lcom/softwinner/tcorrection/projection/AngleState;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v5, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+  onCenter()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$300(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+  onDown()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$2;->update()V
+  onLeft()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$2;->update()V
+  onRight()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$2;->update()V
+  onUp()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$2;->update()V
+  reset()
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$3; ---
+  <init>()
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  update()
+    CALL: v1, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v0, v2, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  in()
+    CALL: v0, v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$202(Lcom/softwinner/tcorrection/projection/AngleActivity; Lcom/softwinner/tcorrection/projection/AngleState;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v5, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+  onCenter()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$400(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+  onDown()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$3;->update()V
+  onLeft()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$3;->update()V
+  onRight()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$3;->update()V
+  onUp()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$3;->update()V
+  reset()
+
+--- Lcom/softwinner/tcorrection/projection/AngleActivity$4; ---
+  <init>()
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+    CALL: v1, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->getKeyStoneParame(I)I
+  update()
+    CALL: v1, v0, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+    CALL: v0, v2, Lcom/softwinner/tcorrection/trapezoid/SetTrapezoid;->setKeyStoneParame(I I)V
+  in()
+    CALL: v0, v9, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$202(Lcom/softwinner/tcorrection/projection/AngleActivity; Lcom/softwinner/tcorrection/projection/AngleState;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v6, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v8, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v7, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v3, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v2, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+  onCenter()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$500(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/AngleState;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleState;->in()V
+  onDown()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$4;->update()V
+  onLeft()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$4;->update()V
+  onRight()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$4;->update()V
+  onUp()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/AngleActivity;->access$100(Lcom/softwinner/tcorrection/projection/AngleActivity;)Lcom/softwinner/tcorrection/projection/ActivityAngleBinding;
+    STR: v3, "%d"
+    CALL: v4, Lcom/softwinner/tcorrection/projection/AngleActivity$4;->update()V
+  reset()
+
+--- Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity; ---
+  <init>()
+    CALL: v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;-><init>()V
+  initData()
+    CALL: v0, v1, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
+    CALL: v0, v1, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
+    CALL: v9, v1, v0, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->setSettingAdapterLists([Ljava/lang/String; [Ljava/lang/String;)V
+    STR: v0, "persist.vendor.gsensor.enable"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String; Z)Z
+    CALL: v9, v0, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->setAutoTrapezoid(Ljava/lang/Boolean;)V
+    CALL: v9, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->setAllSwitch()V
+    CALL: v9, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->initValue()V
+  initSwitchInfo()
+    CALL: v1, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setEnable(Z)V
+    CALL: v1, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setShowSwitch(Z)V
+    CALL: v1, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setSwitchOn(Z)V
+    CALL: v1, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setNextWindowFlag(Z)V
+  initValue()
+    STR: v0, "persist.sys.filp.mode"
+    CALL: v0, v1, Landroid/os/SystemProperties;->getInt(Ljava/lang/String; I)I
+    CALL: v2, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->getSettingAdapterLists()Ljava/util/List;
+    CALL: v0, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setSettingTwoStr(Ljava/lang/String;)V
+  setAllSwitch()
+    CALL: v0, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->setAutoTrapezoidSwitch()V
+  setAutoTrapezoid()
+    CALL: v4, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+    CALL: v4, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+    CALL: v3, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+    CALL: v4, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+    CALL: v4, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+    CALL: v3, v2, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setIsViewGone(Z)V
+  setAutoTrapezoidSwitch()
+    STR: v1, "persist.vendor.gsensor.enable"
+    CALL: v1, v2, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String; Z)Z
+    CALL: v3, v0, v1, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->initSwitchInfo(Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo; Z)V
+  dropLeft()
+    CALL: v3, v4, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->refreshUI(I)V
+  dropRight()
+    STR: v0, "vendor.jm.calibration.sensor"
+    STR: v1, "true"
+    CALL: v0, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->refreshUI(I)V
+  itemClick()
+    STR: v6, "persist.vendor.gsensor.enable"
+    CALL: v6, v0, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String; Z)Z
+    STR: v2, "false"
+    STR: v3, "true"
+    CALL: v6, v1, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v6, v0, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String; Z)Z
+    STR: v6, "vendor.force.auto.trapezoid"
+    CALL: v6, v2, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v4, v5, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->refreshUI(I)V
+    CALL: v4, v5, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->dropRight(I)V
+  itemFocused()
+  onCreate()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->setSettingTitle(I)V
+    CALL: Lcom/softwinner/tv/AwTvDisplayManager;->getInstance()Lcom/softwinner/tv/AwTvDisplayManager;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->initData()V
+  onDestroy()
+    STR: v1, "ProjectionSettingActivity"
+    STR: v0, "onDestroy"
+  refreshUI()
+    CALL: v2, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->getSettingAdapterLists()Ljava/util/List;
+    CALL: v3, v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->setSettingTwoStr(Ljava/lang/String;)V
+    STR: v0, "persist.sys.filp.mode"
+    CALL: v0, v3, Landroid/os/SystemProperties;->set(Ljava/lang/String; Ljava/lang/String;)V
+    CALL: v3, v0, v1, Lcom/softwinner/tv/AwTvDisplayManager;->factorySetPanelValue(Lcom/softwinner/tv/common/AwTvDisplayTypes$EnumPanelConfigType; I)I
+    CALL: v2, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->setAutoTrapezoidSwitch()V
+    STR: v3, "persist.vendor.gsensor.enable"
+    CALL: v3, v0, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String; Z)Z
+    CALL: v2, v3, Lcom/softwinner/tcorrection/projection/ProjectionSettingActivity;->setAutoTrapezoid(Ljava/lang/Boolean;)V
+    CALL: v2, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->itemChangedAll()V
+
+--- Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity$1; ---
+  <init>()
+  onLRClick()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->access$000(Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity; Landroid/view/View;)Z
+
+--- Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity$2; ---
+  <init>()
+  onItemClick()
+    CALL: v0, v2, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->itemClick(I Landroid/view/View;)V
+  onItemFocused()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/RecyclerviewBaseActivity;->itemFocused(I)V
+
+--- Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter; ---
+  <init>()
+  access$000()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->lambda$onBindViewHolder$0$RecyclerviewBaseAdapter(I Landroid/view/View;)V
+  access$100()
+    CALL: v0, v1, v2, v3, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->lambda$onBindViewHolder$1$RecyclerviewBaseAdapter(I Landroid/view/View; Z)V
+  lambda$onBindViewHolder$0$RecyclerviewBaseAdapter()
+    CALL: v0, v2, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnItemListener;->onItemClick(Landroid/view/View; I)V
+    STR: v2, "onBindViewHolder: onItemClick "
+    STR: v1, "RecyclerviewBaseAdapter"
+  lambda$onBindViewHolder$1$RecyclerviewBaseAdapter()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnItemListener;->onItemFocused(I)V
+    STR: v2, "onBindViewHolder: onItemFocused "
+    STR: v1, "RecyclerviewBaseAdapter"
+  getItemCount()
+  getItemId()
+  itemChangedAll()
+  onBindViewHolder()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->onBindViewHolder(Lcom/softwinner/tcorrection/projection/adapter/SimpleViewHolder; I)V
+  onBindViewHolder()
+    CALL: v1, v4, v6, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$1;-><init>(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter; I)V
+    CALL: v1, v4, v6, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$2;-><init>(Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter; I)V
+    CALL: v0, v1, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getSettingStr()Ljava/lang/String;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->isShowSwitch()Z
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->isShowSwitch()Z
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getIsEnable()Z
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getIsViewGone()Z
+    CALL: v5, v0, v1, Lcom/softwinner/tcorrection/projection/adapter/SimpleViewHolder;->setVisibility(Landroid/content/Context; I)V
+    CALL: v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->isShowSwitch()Z
+    CALL: v4, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->isSwitchOn()Z
+    CALL: v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getIsCheckBox()Z
+    CALL: v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getSettingTwoStr()Ljava/lang/String;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getSettingTwoStr()Ljava/lang/String;
+    CALL: v4, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getCheckVisible()Ljava/lang/Boolean;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getSettingTwoStr()Ljava/lang/String;
+    CALL: v1, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getSettingTwoStr()Ljava/lang/String;
+    CALL: v0, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getLRVisible()Z
+    CALL: v4, Lcom/softwinner/tcorrection/projection/bean/RecyclerViewItemInfo;->getNextWindowFlag()Z
+  onCreateViewHolder()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter;->onCreateViewHolder(Landroid/view/ViewGroup; I)Lcom/softwinner/tcorrection/projection/adapter/SimpleViewHolder;
+  onCreateViewHolder()
+    CALL: v4, v2, Lcom/softwinner/tcorrection/projection/adapter/SimpleViewHolder;-><init>(Landroid/view/View;)V
+  onTouch()
+    CALL: v0, v1, Lcom/softwinner/tcorrection/projection/adapter/RecyclerviewBaseAdapter$OnLRClickListener;->onLRClick(Landroid/view/View;)Z
+  setOnItemListener()
+  setOnLRClickListener()
+
+--- Lcom/softwinner/tcorrection/projection/adapter/SimpleViewHolder; ---
+  <init>()
+  setVisibility()
+
+--- Lcom/softwinner/tcorrection/projection/view/NoSpaceTextView; ---
+  <init>()
+    CALL: v1, v2, v0, Lcom/softwinner/tcorrection/projection/view/NoSpaceTextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+  <init>()
+    CALL: v1, v2, v3, v0, Lcom/softwinner/tcorrection/projection/view/NoSpaceTextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+  <init>()
+  getFirstAndLastLines()
+  removeSpace()
+    CALL: v9, Lcom/softwinner/tcorrection/projection/view/NoSpaceTextView;->getFirstAndLastLines()[Ljava/lang/String;
+  onMeasure()
+    CALL: v0, v1, v2, Lcom/softwinner/tcorrection/projection/view/NoSpaceTextView;->removeSpace(I I)V
+  setText()
+
+
+============ AwManager - Board Management ============
+
+======================================================================
+  DEEP ANALYSIS: AwManager.apk
+======================================================================
+
+--- Lcom/softwinner/awmanager/AwManager$1; ---
+  <init>()
+  run()
+
+--- Lcom/softwinner/awmanager/AwManager$MyAdapter-IA; ---
+
+--- Lcom/softwinner/awmanager/AwManager$MyAdapter; ---
+  <init>()
+  <init>()
+  getCount()
+  getItem()
+  getItem()
+  getItemId()
+  getView()
+
+--- Lcom/softwinner/awmanager/AwManager$MyData-IA; ---
+
+--- Lcom/softwinner/awmanager/AwManager$MyData; ---
+  <init>()
+  <init>()
+
+--- Lcom/softwinner/awmanager/AwManager; ---
+  -$$Nest$fgetmAppData()
+  <init>()
+  refreshVisble()
+  reloadAppList()
+    STR: v2, "android.intent.action.MAIN"
+    STR: v2, "android.intent.category.LAUNCHER"
+  setLimit()
+  updateUserList()
+  onCreate()
+    CALL: v4, v3, v2, Lcom/softwinner/awmanager/AwManager;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+  onItemClick()
+  onItemSelected()
+  onNothingSelected()
+  onResume()
+
+--- Lcom/softwinner/awmanager/AwManagerApp; ---
+  <init>()
+  setTileEnabled()
+    STR: v2, "com.softwinner.awmanager"
+    STR: v3, "com.softwinner.awmanager.AwManager"
+  enable()
+  onCreate()
+
+--- Lcom/softwinner/awmanager/R$dimen; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R$drawable; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R$id; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R$layout; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R$string; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R$style; ---
+  <init>()
+
+--- Lcom/softwinner/awmanager/R; ---
+  <init>()
