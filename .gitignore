@@ -1,2 +1,18 @@
+# Firmware dumps (proprietary partition images, boot chain, kernel modules)
 /firmware_dump
 /nfx_extracted
+
+# APK binaries (copyrighted vendor/malware/third-party apps)
+*.apk
+nfx.zip
+
+# JAR files (proprietary Allwinner/Softwinner frameworks)
+apk_decompile/*.jar
+
+# Binary firmware blobs
+*.img
+*.bin
+*.dtb
+*.dtbo
+*.ko
+*.cpio
